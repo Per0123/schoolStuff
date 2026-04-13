@@ -10,7 +10,7 @@ void zad_a() {
     for (int i = 0; i < 1000; ++i) {
         int r = rand();
         if (to_string(r).size() == 3) {
-            cout << r << '\n';
+            cout << r << ' ';
         }
     }
 }
