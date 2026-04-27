@@ -16,6 +16,18 @@ int main() {
 	int k; cin >> k;
 
 	while (q.size() > 1) {
+		cout << "Red: ";
+		int vel = q.size();
+
+		for (int i = 0; i < vel; i++) {
+			cout << q.front() << " ";
+			
+			q.push(q.front());
+			q.pop();
+		}
+
+		cout << endl;
+
 		for (int i = 0; i < k; i++) {
 			q.push(q.front());
 			q.pop();
