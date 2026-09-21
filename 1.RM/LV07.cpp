@@ -61,21 +61,21 @@ void zad_c() {
             break;
         case 3:
             if (b > 20) {
-                cout << "PROLJEÆE";
+                cout << "PROLJEÄ†E";
             }
             else {
                 cout << "ZIMA";
             }
             break;
         case 4: case 5:
-            cout << "PROLJEÆE";
+            cout << "PROLJEÄ†E";
             break;
         case 6:
             if (b > 21) {
                 cout << "LJETO";
             }
             else {
-                cout << "PROLJEÆE";
+                cout << "PROLJEÄ†E";
             }
             break;
         case 7: case 8:
