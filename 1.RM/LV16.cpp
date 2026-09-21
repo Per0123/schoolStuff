@@ -13,7 +13,7 @@ static void zadA() {
 
 
     const char* mjeseci[] = {
-        "ruj", "list", "stu", "pro", "sij", "velj", "oûu", "tra", "svi", "lip"
+        "ruj", "list", "stu", "pro", "sij", "velj", "o≈æu", "tra", "svi", "lip"
     };
 
     int odlicne = 0;
@@ -32,13 +32,13 @@ static void zadA() {
         }
     }
 
-    cout << "Broj odliËnih ocjena: " << odlicne << endl;
+    cout << "Broj odli√®nih ocjena: " << odlicne << endl;
 
     double prosjek = suma / brojOcjena;
-    cout << fixed << setprecision(2) << "ProsjeËna ocjena: " << prosjek << endl;
+    cout << fixed << setprecision(2) << "Prosje√®na ocjena: " << prosjek << endl;
 
     if (prosjek >= 4.5) {
-        cout << "Ocjena: 5 (odliËan)" << endl;
+        cout << "Ocjena: 5 (odli√®an)" << endl;
     }
     else if (prosjek >= 3.5) {
         cout << "Ocjena: 4 (vrlo dobar)" << endl;
@@ -85,7 +85,7 @@ static void zadB() {
         }
     }
 
-    cout << "Najmanje uËenja bilo je u: " << min_dan + 1 << ". danu (ponedjeljak je 1)." << endl;
+    cout << "Najmanje u√®enja bilo je u: " << min_dan + 1 << ". danu (ponedjeljak je 1)." << endl;
 }
 
 static void zadC() {
@@ -208,7 +208,7 @@ int main() {
     case 4: zadD(); break;
     case 5: zadE(); break;
     case 6: zadF(); break;
-    default: cout << "NevaûeÊi broj zadatka!" << endl;
+    default: cout << "Neva≈æe√¶i broj zadatka!" << endl;
     }
 
     return 0;
