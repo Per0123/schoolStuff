@@ -1,10 +1,10 @@
-LV1 – Testovi zadataka
-Učenik: Petar Filo
-AI: Nisam koristio.
+# LV1 – Testovi zadataka
+- Učenik: Petar Filo
+- AI: Nisam koristio.
 
 ---
 
-1. Turnir
+## 1. Turnir
 
 - Funkcija prima: 3 int-a
 - Funkcija vraća: bool
@@ -14,7 +14,7 @@ AI: Nisam koristio.
 - Očekivani rezultat: NE PROLAZI
 
 
-2. Sigurna Zona
+## 2. Sigurna Zona
 
 - Funkcija prima: 6 int-a
 - Funkcija vraća: string
@@ -29,7 +29,7 @@ Izvan zone
 Izvan zone
 
 
-3. Najbliži cilju
+## 3. Najbliži cilju
 
 - Funkcija prima: 3 int-a
 - Funkcija vraća: string
