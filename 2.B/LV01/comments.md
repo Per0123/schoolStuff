@@ -10,8 +10,8 @@
 - Funkcija vraća: bool
 
 ### Moj test
-- Ulaz: 40 40 40
-- Očekivani rezultat: NE PROLAZI
+- Ulaz: `40 40 40`
+- Očekivani rezultat: `NE PROLAZI`
 
 
 ## 2. Sigurna Zona
@@ -20,13 +20,13 @@
 - Funkcija vraća: string
 
 ### Moj test
-- Ulaz: 2 2 4 4 1 1 3 3 5 5 4 4
+- Ulaz: `2 2 4 4 1 1 3 3 5 5 4 4`
 - Očekivani rezultat:
 
-Izvan zone
+`Izvan zone
 Na rubu
 Izvan zone
-Izvan zone
+Izvan zone`
 
 
 ## 3. Najbliži cilju
@@ -35,5 +35,5 @@ Izvan zone
 - Funkcija vraća: string
 
 ### Moj test
-- Ulaz: 7 3 9
-- Očekivani rezultat: B
+- Ulaz: `7 3 9`
+- Očekivani rezultat: `B`
