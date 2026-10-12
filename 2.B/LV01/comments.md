@@ -1,4 +1,4 @@
-# LV1 – Testovi zadataka
+# LV01 – Testovi zadataka
 - Učenik: Petar Filo
 - AI: Nisam koristio.
 
