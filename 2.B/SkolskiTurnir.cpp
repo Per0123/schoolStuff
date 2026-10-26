@@ -10,8 +10,8 @@ void output(int points, bool pass) {
 	cout << points << (pass ? " Prosao je" : " Nije prosao");
 }
 
-void pass(int sum) {
-	if (sum > 200) {
+void pass(int sum, int a, int b, int c) {
+	if (sum > 200 && ((a > 40) && (b > 40) && (c > 40))) {
 		output(sum, true);
 	}
 	else {
@@ -23,8 +23,7 @@ int main() {
 	int z1, z2, z3;
 	cin >> z1 >> z2 >> z3;
 
-	int o = sum(z1, z2, z3);
-	pass(o);
+	pass(sum(z1, z2, z3), z1, z2, z3);
 
 	return 0;
 }
