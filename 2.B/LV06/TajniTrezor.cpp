@@ -28,8 +28,20 @@ void getNums(int n, int& n1, int& n2, int& n3, int& n4) {
     n4 = n % 10;
 }
 
-void out(bool bo) {
-    cout << (bo ? "Siguran" : "Nije siguran");
+void out(bool b1, bool b2, bool b3) {
+    if (b1 && b2 && b3) {
+        cout << "Siguran";
+    }
+    else {
+        cout << "Nije siguran";
+
+        int o = 0;
+        if (b1) { o++; }
+        if (b2) { o++; }
+        if (b3) { o++; }
+
+        cout << ' ' << o;
+    }
 }
 
 int main() {
@@ -39,19 +51,11 @@ int main() {
     int n1, n2, n3, n4;
     getNums(n, n1, n2, n3, n4);
 
-    if (!firstCase(n1, n2, n3, n4)) {
-        out(false);
-        return 0;
-    }
-    if (!secondCase(n1, n2, n3, n4)) {
-        out(false);
-        return 0;
-    }
-    if (!thirdCase(n1, n2, n3, n4)) {
-        out(false);
-        return 0;
-    }
-    
-    out(true);
+    bool c1, c2, c3;
+    c1 = firstCase(n1, n2, n3, n4);
+    c2 = secondCase(n1, n2, n3, n4);
+    c3 = thirdCase(n1, n2, n3, n4);
+
+    out(c1, c2, c3);
     return 0;
 }
