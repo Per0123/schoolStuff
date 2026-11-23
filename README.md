@@ -1,1 +1,1 @@
-# Skola
+![WarTux](images.jpg)
