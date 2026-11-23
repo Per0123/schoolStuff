@@ -1,0 +1,38 @@
+A
+Za vektor {42, 58, 35} i prag p = 50: koliko elemenata zadovoljava uvjet? 1
+Napiši što vraća rekurzivni poziv kada je indeks jednak veličini vektora: Vraca broj vrijednosti koje prolaze. 
+Koji se argument mijenja pri svakom sljedećem pozivu? int i
+
+
+B · Testiranje
+Za svaki test prije pokretanja predvidi broj prolaznih rezultata. 
+Zatim zabilježi rezultate iterativne i rekurzivne funkcije.
+
+Test          n, p i rezultati             Očekivano  Iter.  Rek.
+1             7 50 | 42 58 58 35 61 47 61  4          4      4
+2             4 70 | 70 70 70 70           4          4      4
+3             5 80 | 10 20 30 40 50        0          0      0
+4             1 40 | 40                    1          1      1
+5             1 40 | 39                    0          0      0
+6 – vlastiti  1 50 | 49                    0          0      0
+
+Ako se rezultati razlikuju, provjeri bazni slučaj, indeks sljedećeg poziva i uvjet ≥ p. 
+Nemoj mijenjati oba algoritma odjednom.
+
+
+C · Usporedi i obrazloži (I6)
+Pitanje                          Iterativno rješenje          Rekurzivno rješenje
+Koliko se elemenata obrađuje?    n                            n
+Vremenska složenost O(…)?        O(n)                         O(n)
+Dodatna memorija O(…)?           O(1)                         O(n)
+Što se događa s vrlo velikim n?  U pravilu radi bez problema  Može doći do prekoračenja stoga poziva
+
+
+Zaključak (3–5 rečenica): 
+Koji biste postupak izabrali za n = 1000 i zašto? 
+Što se mijenja kada je n vrlo velik? 
+Razlikujte vrijeme izvođenja i dodatnu memoriju.
+
+Za n = 1000 odabrao bih iterativni postupak jer troši manje memorije. 
+Oba postupka imaju složenost O(n), ali rekurzija koristi dodatnu memoriju za pozive funkcije. 
+Kod vrlo velikog n rekurzija može uzrokovati prekoračenje stoga.

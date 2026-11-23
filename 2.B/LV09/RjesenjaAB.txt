@@ -1,0 +1,20 @@
+A
+Zapiši potpise barem dviju funkcija. Uz svaku napiši što prima, što vraća i kako postupa kada više
+natjecatelja ima isti najbolji rezultat.
+Funkcija 1: In: const vector<int>& v, int n, Out: int i
+Funkcija 2: In: const vector<int>& v, int n, Out: int o
+
+Zašto u funkciji za maksimum usporedba > i usporedba >= ne moraju dati istu poziciju?
+Jer brojevi mogu biti isti, pa upit ne mora uvijek biti tocan
+
+
+B
+Uz zadana tri testa obvezno samostalno osmisli još dva: jedan s ponovljenim maksimumom i jedan u
+kojem nitko ne ostvaruje prag. Prije pokretanja napiši očekivani izlaz.
+
+Vlastiti test            Ulaz (n, p, rezultati)  Očekivani izlaz                    Dobiveni izlaz / zaključak
+4 – ponovljeni maksimum  4 10 10 10 5 5          NAJBOLJI 10, POZICIJA 1, PROLAZ 2  NAJBOLJI 10, POZICIJA 1, PROLAZ 2
+5 – nitko ne prolazi     4 10 9 8 7 6            NAJBOLJI 9, POZICIJA 1, PROLAZ 0  NAJBOLJI 9, POZICIJA 1, PROLAZ 0
+
+Ako rezultat nije očekivan, nemoj nasumično mijenjati program. Zapiši: koji test pada, koja je prva
+pogrešna vrijednost i u kojoj se funkciji ona određuje.
